@@ -1,0 +1,43 @@
+:root {
+  /* Define colors */
+  --bg-color: #f7b2b7;
+  --text-color: #333;
+  --link-color: #ff8080;
+}
+
+/* Set background color */
+body {
+  background-color: var(--bg-color);
+}
+
+/* Style links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+  font-family: "Georgia", serif;
+}
+
+/* Style buttons */
+button {
+  background-color: var(--link-color);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6767d;
+}
